@@ -4,11 +4,11 @@ A web application for searching, viewing and managing information about teachers
 
 Language: Java + JS.
 
-[SRS of program](https://github.com/FroZzeLs/sdlc_lab2/blob/main/Requirements/SRS.md)
+[SRS of program](https://github.com/FroZzeLs/sdlc_lab3/blob/main/Requirements/SRS.md)
 
-[User interface images](https://github.com/FroZzeLs/sdlc_lab2/tree/main/Mockups)
+[User interface images](https://github.com/FroZzeLs/sdlc_lab3/tree/main/Mockups)
 
-[Diagrams](https://github.com/FroZzeLs/sdlc_lab2/tree/main/Diagrams)
+[Diagrams](https://github.com/FroZzeLs/sdlc_lab3/tree/main/Diagrams)
 
 [source code]() _not implemented_
 
