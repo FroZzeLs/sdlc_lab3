@@ -1,0 +1,41 @@
+# /home/frozzel/IdeaProjects/SpringReviewer/.dockerignore
+
+# Исключаем всю папку фронтенда из контекста сборки бэкенда!
+frontend/
+
+# Стандартные исключения для Java/Maven/Gradle
+target/
+.mvn/
+build/
+out/
+
+# IDE & OS файлы
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*~
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Файлы Docker/Compose/Env из самого контекста
+Dockerfile
+docker-compose.yml
+.env
+
+# Логи и временные файлы
+logs/
+*.log
+tmp/
+
+# Исполняемые файлы Maven/Gradle Wrapper (если они не нужны в образе)
+mvnw
+mvnw.cmd
+gradlew
+gradlew.bat
+.gradle/

@@ -1,0 +1,11 @@
+# /home/frozzel/IdeaProjects/SpringReviewer/frontend/my-reviewer-ui/.dockerignore
+
+node_modules/
+dist/
+.env*
+.git/
+.gitignore
+Dockerfile
+README.md
+*~
+.DS_Store

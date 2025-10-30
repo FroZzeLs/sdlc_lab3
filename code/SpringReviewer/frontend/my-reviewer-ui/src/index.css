@@ -1,0 +1,64 @@
+@import 'antd/dist/reset.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --ant-primary-color: #1677ff;
+}
+
+body {
+  --ant-primary-color: #1677ff;
+  --ant-primary-color-hover: #4096ff;
+  --ant-primary-color-active: #0958d9;
+}
+
+.app-container {
+  padding: 24px;
+  min-height: 100vh;
+}
+
+.list-item-margin {
+  margin-bottom: 16px !important;
+}
+
+.section-title {
+  margin-bottom: 20px !important;
+  color: var(--ant-primary-color);
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.nested-list {
+    margin-left: 20px;
+    margin-top: 8px;
+    border-left: 1px dashed #d9d9d9;
+    padding-left: 15px;
+}
+.nested-list .ant-list-item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nested-list-title {
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.65);
+}
